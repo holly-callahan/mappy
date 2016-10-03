@@ -32,9 +32,9 @@
 
       function showInfo(data) {
         // the column headers of the info you want in your popup
-        var optionsJSON = ["First Name"]
+        var optionsJSON = ["Timestamp"]
         // an html template for your popup
-        var template ="<li><h4>{{First Name}}</h4></li></ul>"
+        var template ="<li><h4>{{Timestamp}}</h4></li></ul>"
         var geoJSON = Sheetsee.createGeoJSON(data, optionsJSON)
         var map = Sheetsee.loadMap("map")
         // Try different map tiles? examples.map-20v6611k
